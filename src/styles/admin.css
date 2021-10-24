@@ -1,0 +1,99 @@
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #00a2ff;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#loginBtn{
+    padding: 1rem;
+    background: #00a2ff;
+    border-radius: 1rem;
+    color: white;
+    font-weight: bold;
+    width: 5rem;
+    font-size: 1rem;
+    align-self: center;
+ 
+ }
+ h2{
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-top: -1rem;
+    padding: 1rem;
+
+ }
+ h3{
+     color: red;
+     margin-left: 3rem;
+     font-size: 2rem;
+     
+ }
+ #title{
+    width: 75rem;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #00a2ff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    align-self: center;
+    margin-left: 5rem;
+    font-size: 25px;
+
+ }
+ #content{
+    width: 75rem;
+    height: 10rem;
+    padding: 12px 20px;
+    margin: 8px 0;
+    
+    border: 1px solid #00a2ff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    align-self: center;
+    margin-left: 5rem;
+    font-size: 25px;
+
+ }
+ #newBtn{
+   padding: 1rem;
+   background: #00a2ff;
+   border-radius: 1rem;
+   color: white;
+   font-weight: bold;
+   width: 7.5rem;
+   font-size: 1rem;
+   align-self: center;
+   margin-left: 5rem;
+   margin-top: 1rem;
+
+}
+#dropDown{
+   width: 20rem;
+   margin-left: 5rem;
+   border-style: solid;
+   border-color: #00a2ff;
+   border-width: 1px;
+   
+}
+#selectCat{
+   font-size: 15px;
+   margin-left: 5rem;
+ 
+}
+#imagePicker{
+   width: 15rem;
+   padding: 12px 20px;
+   margin: 8px 0;
+  
+   display: inline-block;
+   border: 1px solid #00a2ff;
+   border-radius: 2rem;
+   box-sizing: border-box;
+}
+label{
+   margin-left: 2rem;
+}
