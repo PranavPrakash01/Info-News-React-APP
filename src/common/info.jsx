@@ -1,5 +1,6 @@
 import React,{ useEffect, useState }  from 'react'
 import styled from 'styled-components'
+import Interval from 'react-interval-rerender'
 
 const InfoTab = styled.div`
     background-color: #f8f6f6;
@@ -66,8 +67,15 @@ const Info= ()=>{
     
     return(
         <InfoTab>
-            <TimeTxt>{currentTime}</TimeTxt>
+            <TimeTxt>
+                <Interval delay={1000}>
+                   {() => new Date().toLocaleTimeString()}
+                </Interval>
+            </TimeTxt>
+            
+            
             <DateTxt>{currentDate}UTC</DateTxt>
+
             <ColoredLine/>
             <Description>
                 Project by Pranav P For CSEA, NIT Calicut 
