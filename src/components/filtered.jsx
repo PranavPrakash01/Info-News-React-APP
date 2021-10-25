@@ -88,7 +88,7 @@ const Filtered= ()=>{
     }, [])
 
         const handleClick=(id)=>{
-            window.open(`/single/${id}`);
+            window.open(`/single/${id}`,"_self");
         }
 
     
