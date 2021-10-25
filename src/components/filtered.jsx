@@ -24,7 +24,10 @@ const FeedItem = styled.div`
     border-color: #c5c4c4;
     border-width: 1px;
     border-radius: 20px;
-    margin:2rem;
+    margin:1rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    margin-top: 2rem;
     padding: 3rem;
     height:20rem ;
     overflow: hidden;

@@ -20,11 +20,12 @@ const FeedContent=styled.div`
 `
 const FeedItem = styled.div`
     
-    width: 60rem;
+    width: 45rem;
     
     border-width: 1px;
     border-radius: 20px;
-    margin:2rem;
+    margin:1rem;
+    margin-left: -2rem;
     padding: 3rem;
     height:auto ;
    

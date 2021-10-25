@@ -12,6 +12,7 @@ const InfoTab = styled.div`
     position: fixed;
     align-items: center;
     display: inline-block;
+    margin-right: -10rem;
     
 `
 const TimeTxt= styled.div`

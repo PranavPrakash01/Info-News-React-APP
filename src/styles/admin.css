@@ -81,7 +81,7 @@ input{
 }
 #selectCat{
    font-size: 15px;
-   margin-left: 5rem;
+   margin-left: 10rem;
  
 }
 #imagePicker{
@@ -95,5 +95,5 @@ input{
    box-sizing: border-box;
 }
 label{
-   margin-left: 2rem;
+   margin-left: 25rem;
 }

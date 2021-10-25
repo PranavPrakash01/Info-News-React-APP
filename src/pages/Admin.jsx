@@ -100,10 +100,6 @@ const Admin= ()=>{
          console.log(res.status);
          setMessage("Login Verified")
          setIsAdmin(true)
-         
-         alert("Login Verified")
-        
-
           
        }).catch((err)=> {
         
